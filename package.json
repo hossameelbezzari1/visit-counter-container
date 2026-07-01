@@ -1,0 +1,26 @@
+{
+  "name": "visit-counter-container",
+  "version": "1.0.0",
+  "description": "Compteur de visites Node.js conteneurisé et déployé sur Azure avec GitHub Actions.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "engines": {
+    "node": ">=24"
+  },
+  "keywords": [
+    "nodejs",
+    "express",
+    "docker",
+    "azure",
+    "azure-container-registry",
+    "github-actions"
+  ],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "express": "^5.2.1"
+  }
+}
