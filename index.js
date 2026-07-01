@@ -551,7 +551,7 @@ initializeVisitsFile();
 
 
 // 0.0.0.0 permet à l'application d'être accessible depuis le conteneur.
-app.listen(PORT, "0.0.0.0", () => {
+app.listen(PORT, "0.0.0.0", () => { 
     console.log(
         `Visit Counter Container de Hossame El Bezzari démarré sur le port ${PORT}`
     );
