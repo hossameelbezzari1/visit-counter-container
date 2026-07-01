@@ -549,6 +549,7 @@ app.get("/health", (request, response) => {
 
 initializeVisitsFile();
 
+
 // 0.0.0.0 permet à l'application d'être accessible depuis le conteneur.
 app.listen(PORT, "0.0.0.0", () => {
     console.log(
